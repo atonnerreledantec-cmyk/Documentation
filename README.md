@@ -10,7 +10,7 @@ Décrire le service, son utilité et son contexte d’utilisation.
 ## Installation
 ```bash
 # Exemple : installation du paquet
-sudô apt install nôm-du-paquét -y
+sudo apt install nom-du-paquet -y
 ```
 ## Configuration
 Expliquer les fichiers de configuration a modifier et donner des extraits de code si nécessaire.
