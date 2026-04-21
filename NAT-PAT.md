@@ -51,7 +51,7 @@ R1(config)#int s0/0
 R1(config-if)#ip nat outside 
 R1(config-if)#exit
 
-Exempke de configuration du NAT statique pour C3=>translation statique dans la table de translation NAT= "ouvrir un port". Il s'agit au routeur que ce qui arrive sur son interface publique(S0/0) et dont l'adresse destination est 201.49.10.30 (une des adresses du pool publique) doit être redirigé vers 192.168.1.100.
+Exemple de configuration du NAT statique pour C3=>translation statique dans la table de translation NAT= "ouvrir un port". Il s'agit au routeur que ce qui arrive sur son interface publique(S0/0) et dont l'adresse destination est 201.49.10.30 (une des adresses du pool publique) doit être redirigé vers 192.168.1.100.
 
 - Configurer du NAT statique:
  R1(config)#ip nat inside source static 192.168.1.100 201.49.10.30
